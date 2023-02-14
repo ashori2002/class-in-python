@@ -4,3 +4,4 @@ class Car:
     def test(self):
         print(f"test {name}")
 
+pride = Car("pride 111")
