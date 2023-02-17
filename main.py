@@ -1,7 +1,8 @@
 class Car:
-    def __init__(self , name):
-        print(f"my car's name {name}")
+    def __init__(self , n):
+        self.name = n
+        print(f"my car's name {n}")
     def test(self):
-        print(f"test {name}")
+        print(f"test {self.name}")
 
 pride = Car("pride 111")
