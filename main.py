@@ -10,11 +10,12 @@
 #____________________________________________________________
 
 class A:
-    def printA(self):
+    def test(self):
         print("Inheritance in Python A")
 class B(A):
-    def printB(self):
+    def test(self):
+        super().test()
         print("Inheritance in Python B")
 
 x = B()
-x.printA()
+x.test()
